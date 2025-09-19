@@ -1,8 +1,8 @@
 <img width=172 height=172 alt="System Preferences Icon" src="images/system-preferences-icon.png" align="left">
 <div>
-    <h1 align="left" style="">Legacy Preferences</h1>
+    <h1 align="left" style="">PreferencesAgo</h1>
     <p align="left">
-    Work-In-Progress recreation of the classic System Preferences to make Ventura not suck.
+    Continuation of Legacy System Prefrences as the creator seems to have not touched it in two years :(.
         <br>
     </p>
 </div>
@@ -27,19 +27,17 @@
 
 ___
 
-## Project Deets
-### Wat it do
-There are many ways to attempt to restoration of the classic System Preferences in Ventura; but all those methods are pretty jank, require too much work, or just won't work. For example:
-- Port an old app bundle on System Preferences from an older OS install
-- Use the NSPreferencePane API to wrap the old `.prefPanes` (those also must be ported form an older OS) 
+## About PreferencesAgo
+### What it does?
+Makes it very easy to get the old system preferences of Monterey> back. 
 
-In order to truly return the ways of old, someone must take it upon themselves to recreate the old. This is a long work in progress, the end goal being replication of classic System Preferences; excluding panes that require interfacing with your Apple ID due to limitations. Check out the [completion checklist](#completion-checklist) if you care.
+In order to truly return the ways of old, someone must take it upon themselves to recreate the old. This is a work in progress, the end goal being replication of classic System Preferences; excluding panes that require interfacing with your Apple ID due to limitations. Check out the [completion checklist](#completion-checklist) to see progress.
 
-### Why it do
+### Why it does?
 Because some of us miss the ways of old (see new [System Settings](https://9to5mac.com/2022/06/06/macos-13-ventura-system-settings-first-look/)).
 
 ## Installation
-Until this is no longer a WIP, I'm not making any releases; but, you can build the project in Xcode if you want to use it in it's current state.
+This project is WIP, but when a new build is made, I will upload it fully compiled for public testing.
 
 ## Completion Checklist
 ### Features
@@ -63,9 +61,9 @@ Until this is no longer a WIP, I'm not making any releases; but, you can build t
 If anyone wishes to contribute towards pane stuff or finds some problems, feel free to open an issue or PR. I will respond and evaluate propositions as quick as possible.
 
 ## ⚠️ Disclaimer
-The app icon used by Legacy Preferences was designed by Apple, not I, and belongs to the native System Preferences/Settings app.
+The app icon used by PreferencesAgo and Legacy Preferences was designed by Apple, not I or dehydratedpotato, and belongs to the native System Preferences/Settings app.
 
 Also, if I mess up implementing some preference and wigs out, I hold not responsibility for bricking your machine or nuking your filesystem.
 
-No one sue me, thanks.
+No one sue me nor dehydratedpotato (amazing guy btw), thanks.
 
